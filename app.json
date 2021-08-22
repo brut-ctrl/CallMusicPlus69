@@ -1,0 +1,82 @@
+{
+  "name": "CallMusicPlus69",
+  "description": "Telegram Voice Chat Music Player Bot Based On Callsmusic with Extrac Features!",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/brut69/CallMusicPlus69",
+  "logo": "https://telegra.ph/file/8869126a35a10cb47e0fd.png",
+  "stack": "container",
+  "env": {
+    "API_ID": {
+      "description": "Your API_ID from my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your API_HASH from my.telegram.org",
+      "required": true
+    },
+    "SESSION_NAME": {
+      "description": "Streamer(Dummy) Account's Pyrogram String Session. Read wiki.",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Bot Token From @BotFather",
+      "required": true
+    },
+    "BOT_OWNER": {
+      "description": "Telegram Id Of yours. Use space to separate!",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "ID's of Sudo Users. They admins everywhere (separate each id by space)",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "Max Time Limit For One Song. Fill in Minutes",
+      "required": false,
+      "value": "7"
+    },
+    "LOG_CHANNEL": {
+      "description": "Log Channel Where Bot Logs Go!",
+      "required": true,
+      "value": ""
+    },
+    "DATABASE_URL": {
+      "description": "Mongo Db url. Get it from https://www.mongodb.com/",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "Your Bot's Username without '@' !",
+      "required": true
+    },
+    "ARQ_API_KEY": {
+      "description": "Your ARQ API key! Get your own with @ARQRobot !",
+      "required": true,
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Your Heroku App Name!",
+      "required": true,
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "Your Heroku Api Key!",
+      "required": true,
+      "value": ""
+    },
+    "UPSTREAM_REPO": {
+      "description": "Github Repo Url. Only needed if you are using your own Fork!",
+      "required": false,
+      "value": "https://github.com/brut69/CallMusicPlus69"
+    },
+    "THUMB_URL": {
+      "description": "Thumbnail Url To Use in play, search commands. Add this only if you need a custom one instead of default thumbnail",
+      "required": false,
+      "value": "https://telegra.ph/file/1abf425f2015c0f28d3fa.png"
+    },
+    "UPDATES_CHANNEL": {
+      "description": "Your Telegram Channel's Username without '@' . Not Needed by Default!",
+      "required": false,
+      "value": "brut69"
+    }
+  }
+}
