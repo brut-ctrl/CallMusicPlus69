@@ -50,7 +50,7 @@
     },
     "ARQ_API_KEY": {
       "description": "Your ARQ API key! Get your own with @ARQRobot !",
-      "required": true,
+      "required": false,
       "value": ""
     },
     "HEROKU_APP_NAME": {
