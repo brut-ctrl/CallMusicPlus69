@@ -1,7 +1,5 @@
 pyrogram
 TgCrypto
-ffmpeg-python
-py-tgcalls==0.5.5
 pytgcalls
 python-dotenv
 requests
@@ -21,11 +19,5 @@ motor
 dnspython
 bs4
 psutil
-wheel
 heroku3
 gitpython
-requests
-Pillow
-future
-psutil
-time
