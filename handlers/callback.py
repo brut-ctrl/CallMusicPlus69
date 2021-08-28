@@ -54,7 +54,7 @@ async def startcb(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""<b>Hi {query.message.from_user.mention} 😉️!</b>
 
-I'm The Nexa Music Bot! A Powerful Bot to Play Music in Your Group Voice Chat 😇!
+I'm The Call Music Bot! A Powerful Bot to Play Music in Your Group Voice Chat 😇!
 
 Also I have more features! Please hit on **/help** to see them 😘!
 
@@ -73,7 +73,7 @@ Made with ❤️ **@{UPDATES_CHANNEL}**""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "📦 Source Code 📦", url="https://github.com/brut69/CallsmusicPlus69"
+                        "📦 Source Code 📦", url="https://github.com/brut-ctrl/CallsmusicPlus69"
                     )
                 ],
                 [
