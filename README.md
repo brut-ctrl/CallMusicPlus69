@@ -38,7 +38,7 @@ _**You need another (dummy) Telegram Account To Use/Deploy This!**_
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/brut-ctrl/CallMusicPlus69)
 
 ### With Railway
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/brut-ctrl/CallMusicPlus69&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,ARQ_API_KEY,DATABASE_URL,UPSTREAM_REPO,UPDATES_CHANNEL,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/brut-ctrl/CallMusicPlus69&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,ARQ_API_KEY,DATABASE_URL,UPSTREAM_REPO,UPDATES_CHANNEL,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT,THUMB_URL)
 
 ### With Zeet
 
