@@ -28,7 +28,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", "CallMusicPlusBot")
 # Your MongoDB url
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://brut69:HWxGlBegyXXq62Jv@cluster0.l50db.mongodb.net/brut69@admin?retryWrites=true&w=majority")
 # Your Log Channel! Make a private channel and get it's ID
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001302544520"))
 # If you need to broadcast messages as a copy or Forwarded Message
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 # Thumbnail URL
