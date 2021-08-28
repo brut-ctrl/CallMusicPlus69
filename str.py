@@ -20,7 +20,7 @@ print("""
                          _|                                     /        
 
 
-Github: https://github.com/brut69/CallMusicPlus69
+Github: https://github.com/brut-ctrl/CallMusicPlus69
 """)
 time.sleep(5) # Just for show off
 print("Enter Your APP ID and API HASH To Generate Pyrogram String Session.")
