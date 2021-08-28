@@ -20,7 +20,7 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 
 # Your Telegram User ID
-BOT_OWNER = int(os.environ.get("BOT_OWNER", "1408440765")
+BOT_OWNER = int(os.environ.get("BOT_OWNER", "1408440765"))
 # Sudo users IDs, They are admins everywhere
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "712147852 1408440765 1944787421 1820831401 1945910995 1909021805 1605366945").split()))
 # Your Bot's Username without "@"
