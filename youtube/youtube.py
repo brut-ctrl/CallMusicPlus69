@@ -8,11 +8,9 @@ from helpers.errors import DurationLimitError
 ytdl = YoutubeDL(
     {
         "format": "bestaudio/best",
-    "verbose": True,
-    "addmetadata": True,
-    "geo-bypass": True,
-    "nocheckcertificate": True,
-    "outtmpl": "downloads/%(id)s.%(ext)s",
+        "geo-bypass": True,
+        "nocheckcertificate": True,
+        "outtmpl": "downloads/%(id)s.%(ext)s",
     }
 )
 
