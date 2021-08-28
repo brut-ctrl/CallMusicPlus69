@@ -15,14 +15,14 @@ BOT_TOKEN = getenv("1941313517:AAFsKQ46fS8BgUz1bjDFAo8dmO_62r_UQdI")
 API_ID = int(getenv("7341107"))
 API_HASH = getenv("881759527a6576b21c5fc632c2472de3")
 
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "18"))
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 
 # Your Telegram User ID
 BOT_OWNER = int(os.environ.get("1408440765"))
 # Sudo users IDs, They are admins everywhere
-SUDO_USERS = list(map(int, getenv("1408440765 712147852 1820831401 1605366945").split()))
+SUDO_USERS = list(map(int, getenv("712147852 1408440765 1944787421 1820831401 1945910995 1909021805 1605366945").split()))
 # Your Bot's Username without "@"
 BOT_USERNAME = os.environ.get("CallMusicPlusBot")
 # Your MongoDB url
@@ -34,7 +34,7 @@ BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 # Thumbnail URL
 THUMB_URL = os.environ.get("THUMB_URL", "https://telegra.ph/file/1abf425f2015c0f28d3fa.png")
 # Your Updates Channel! Don't Put Anything If you don't have one
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "queengemoy_project")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "dunottagme")
 
 # Your ARQ API Key
 ARQ_API_KEY = getenv("ARQ_API_KEY")
@@ -44,7 +44,7 @@ ARQ_API_URL = "https://thearq.tech/"
 # Updator Configs
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
-UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/brut-crtl/CallMusicPlus69")
+UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/brut-ctrl/CallMusicPlus69")
 U_BRANCH = "main"
 HEROKU_URL = fetch_heroku_git_url(HEROKU_API_KEY, HEROKU_APP_NAME)
 
