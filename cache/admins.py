@@ -1,5 +1,4 @@
 from typing import List, Dict, Union
-from config import admins
 
 
 admins: Dict[int, List[int]] = {}
