@@ -8,7 +8,7 @@ import logging
 from pyrogram.types import Message
 from search_engine_parser import GoogleSearch
 from youtube_search import YoutubeSearch
-from pyrogram import Client as app
+from pyrogram import Client, filters
 
 from helpers.database import db, Database
 from helpers.dbthings import handle_user_status
