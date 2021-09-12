@@ -21,4 +21,4 @@ bs4
 psutil
 heroku3
 gitpython
-pytgcalls==3.0.0.dev19
+pytgcalls==
