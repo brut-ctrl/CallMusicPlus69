@@ -10,7 +10,7 @@ from helpers.modhelps import fetch_heroku_git_url
 load_dotenv()
 
 SESSION_NAME = getenv("SESSION_NAME", "BQBfESbaPJTuFzXVE86WZ5RIOIu5yCbYL9fA0H2nRLBSEFck5RvLzcNry-AvnzS2BQpNzcZ2fyWlTKF4xCIjrEnKgyQKvslJNmEnM0Y2XKzVZsaGb_uYrVnror8V3n3GWtjCYqCPjB0cov_J1UJgDx_dNd02ylB2VmCctClbHluqJYvE0XVMqyRT6kjopKnPjzKtHDPgTavpNyPohnVPkY6WhFra7hAfVdjbse_3kWWnpYf3-5uKwVcE360N1T-C5xiKt0QxOq8crSlBzHHkj4VJ3gBl8Da-A9evorAsd_i6eawJOMOFFw7ksX_s50bqYG-qaAQANDJy7F07jMj7pub0bIeuqQA")
-BOT_TOKEN = getenv("BOT_TOKEN", "1941313517:AAFsKQ46fS8BgUz1bjDFAo8dmO_62r_UQdI")
+BOT_TOKEN = getenv("BOT_TOKEN", "1941313517:AAEA8Sa6TgWS6MJ3J9Aap5j_8BlgI_Gby_8")
 
 API_ID = int(getenv("API_ID", "7341107"))
 API_HASH = getenv("API_HASH", "881759527a6576b21c5fc632c2472de3")
