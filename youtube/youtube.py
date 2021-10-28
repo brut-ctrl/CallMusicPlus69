@@ -1,6 +1,6 @@
 from os import path
 
-from yt-dlp import YoutubeDL
+from youtube_dl import YoutubeDL
 
 from config import DURATION_LIMIT
 from helpers.errors import DurationLimitError
