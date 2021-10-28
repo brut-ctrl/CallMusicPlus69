@@ -6,6 +6,7 @@ requests
 aiohttp
 youtube_search_python
 asyncio
+yt-dlp
 youtube_search
 youtube-dl
 search_engine_parser
@@ -19,6 +20,7 @@ motor
 dnspython
 bs4
 psutil
+ffmpeg-python
 heroku3
 gitpython
 
